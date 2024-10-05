@@ -4,7 +4,7 @@
 
 @section('content')
     <div class="container my-5">
-        <h1 class="text-center mb-4" style="color: #343a40;">Cadastrar Nova Conta</h1>
+        <h1 class="text-center mb-4" style="color: #343a40;">Cadastrar Conta</h1>
 
         <div class="d-flex justify-content-center">
             <form action="{{ route('financeiro.store') }}" method="POST" style="width: 400px;">
